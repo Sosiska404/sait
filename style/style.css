@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0; 
+}
+.rightCube, .leftCube{
+    height: 7vh;
+    width: 19vw;
+    background-color: rgba(255, 255, 0, 0.532);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.main{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 3px;
+  
+}
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+.foto{
+    width: 5vh;
+    height: 5vh;
+}
+.fotoMain{
+    width: 30vw;
+}
+.rightFoto{
+    display: flex;
+}
+.cube{
+    height: 10vh;
+    width: 25%;
+    background-color: orange;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
